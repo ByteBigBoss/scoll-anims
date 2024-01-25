@@ -59,6 +59,17 @@ const HeaderStyled = styled.header`
       flex: 2;
       display: flex;
       justify-content: center;
+      input {
+        width: 55%;
+        padding: 0.6rem 0.8rem;
+        border-radius: 8px;
+        background-color: #161616;
+        border: 1px solid var(--color-border);
+        &::placeholder{
+          color: var(--color-border);
+          font-weight: 500;
+        }
+      }
     }
 
     .nav-items{
@@ -75,7 +86,7 @@ const HeaderStyled = styled.header`
       }
     }
 
-    
+
   }
 
 `;
